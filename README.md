@@ -3,7 +3,7 @@
 # ERAD 2022 Open Radar Science Shortcourse
 
 [![nightly-build](https://github.com/openradar/erad2022/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/openradar/erad2022/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder-staging.2i2c.cloud/badge_logo.svg)](https://binder-staging.2i2c.cloud/v2/gh/openradar/erad2022/main?labpath=notebooks)
+[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/openradar/erad2022/main?labpath=notebooks)
 
 This tutorial covers how to get started with the Open Radar Science stack!
 
@@ -33,7 +33,7 @@ The common ground for most of those tools is Python, so we'll feature a quick in
 ## Course program
 * 09:00 - 09:15 Welcome and getting started
 * 09:15 - 09:45 Community weather radar software and Open Science
-* 09:45 - 10:30 Overview of the open source radar processing packages
+* 09:45 - 10:30 [Overview of the open source radar processing packages](package-overview/README.md)
 * 10:30 - 11:00 Coffee break
 * 11:00 - 11:45 Hands on Py-ART
 * 11:45 - 12:30 Hands on [wradlib](wradlib/README.md)
