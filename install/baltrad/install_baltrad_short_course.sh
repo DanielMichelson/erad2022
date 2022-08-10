@@ -16,10 +16,7 @@ yes | rm -rf baltrad2wradlib
 git clone --depth=1 https://github.com/DanielMichelson/pyart2baltrad.git
 yes | cp -rf pyart2baltrad $BALTRAD_INSTALL_ROOT/notebooks/.
 yes | rm -rf pyart2baltrad
-cd $BALTRAD_INSTALL_ROOT/notebooks/baltrad_short_course
-yes | chown -R jovyan:jovyan data
 cd $BALTRAD_INSTALL_ROOT/notebooks/baltrad2wradlib
 yes | mkdir out
-yes | chown -R jovyan:jovyan in out
-cd $BALTRAD_INSTALL_ROOT/notebooks/pyart2baltrad
-yes | chown -R jovyan:jovyan data
+cd $BALTRAD_INSTALL_ROOT/notebooks
+yes | chown -R jovyan:jovyan *
