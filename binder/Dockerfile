@@ -1,1 +1,1 @@
-FROM ghcr.io/DanielMichelson/erad2022:latest
+FROM ghcr.io/danielmichelson/erad2022:latest
